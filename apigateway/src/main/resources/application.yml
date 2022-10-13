@@ -1,0 +1,37 @@
+server:
+ port: 8081
+
+spring:
+ application:
+  name: API-GATEWAY
+ cloud:
+  gateway:
+   default-filters:
+    - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+   globalcors:
+    corsConfigurations:
+     '[/**]':
+      allowedOrigins: "*"
+      allowedMethods: "*"
+      allowedHeaders: "*"
+   routes:
+    - id: USER-SERVICE
+      uri: lb://USER-SERVICE
+      predicates:
+       - Path=/user-service/**
+    - id: DOCUMENT-SERVICE
+      uri: lb://DOCUMENT-SERVICE
+      predicates:
+       - Path=/document-service/**
+    - id: EDIT-PUBLISHER
+      uri: lb://EDIT-PUBLISHER
+      predicates:
+       - Path=/edit-publisher/**
+        
+eureka:
+ client:
+  register-with-eureka: true
+  fetch-registry: true
+  service-url.defaultZone: http://localhost:8761/eureka/
+ instance:
+  hostname: localhost

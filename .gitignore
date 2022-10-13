@@ -1,0 +1,11 @@
+auth-servers/authentication1/node_modules
+auth-servers/authentication2/node_modules
+auth-servers/authentication3/node_modules
+auth-servers/authentication1/package-lock.json
+auth-servers/authentication2/package-lock.json
+auth-servers/authentication3/package-lock.json
+*/mvnw
+*.md
+*.cmd
+.metadata
+*/.mvn

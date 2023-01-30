@@ -129,7 +129,7 @@ exports.guardRequest = (req, res, next) => {
     if (['GET', 'DELETE'].includes(req.method))
         return axios({
             method: req.method,
-            url: 'http://localhost:8083' + req.url
+            url: '<Url>' + req.url
         }).then(result => {
             return res.status(200).json({
                 response: result.data
@@ -144,7 +144,7 @@ exports.guardRequest = (req, res, next) => {
     else
         return axios({
             method: req.method,
-            url: 'http://localhost:8083' + req.url,
+            url: '<Url>' + req.url,
             data: req.body
         }).then(result => {
             return res.status(200).json({

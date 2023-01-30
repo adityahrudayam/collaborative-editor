@@ -12,6 +12,7 @@ import com.project.instruction.publisher.customexceptions.UnauthorizedAccessExce
 import com.project.instruction.publisher.customexceptions.UserNotFoundException;
 import com.project.instruction.publisher.entity.Document;
 import com.project.instruction.publisher.entity.User;
+import com.project.instruction.publisher.model.Instruction;
 import com.project.instruction.publisher.model.ResponseUser;
 import com.project.instruction.publisher.repository.DocumentRepository;
 import com.project.instruction.publisher.repository.UserRepository;
@@ -38,6 +39,17 @@ public class InstructionPublisherServiceImpl implements InstructionPublisherServ
 			throw new UnauthorizedAccessException("Unauthorized access not permitted! Enter valid credentials.");
 		template.convertAndSend(MQConfig.EXCHANGE, MQConfig.ROUTING_KEY, doc);
 		return "document published: " + doc;
+	}
+	
+	@Override
+	public String publishInstruction(String uid, Instruction ins)
+			throws InvalidRequestDataException, UnauthorizedAccessException {
+		if (uid == null || ins == null)
+			throw new InvalidRequestDataException("Invalid request. Please check the request data & try again.");
+		if (!ins.getUid().equals())
+			throw new UnauthorizedAccessException("Unauthorized access not permitted! Enter valid credentials.");
+		template.convertAndSend(MQConfig.EXCHANGE, MQConfig.ROUTING_KEY, ins);
+		return "document published: " + ins;
 	}
 
 	@Override

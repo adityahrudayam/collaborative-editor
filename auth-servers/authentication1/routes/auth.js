@@ -63,4 +63,9 @@ router.post('/user-service/login', authController.login);
 
 router.all('/user-service/*', isAuth, authController.guardRequest);
 
+router.all('/document-service/*', isAuth, authController.guardRequest);
+
+router.all('/edit-publisher/*', isAuth, authController.guardRequest);
+
+
 module.exports = router;

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63a4d773-8ab6-4547-9c55-14931008e11c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/entity/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/service/DocumentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/capstone-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-servers/authentication1/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-servers/authentication1/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-servers/authentication1/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-servers/authentication1/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-servers/authentication1/middleware/isAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-servers/authentication1/middleware/isAuth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-servers/authentication1/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth-servers/authentication1/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/FilehandlerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/DocumentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/controller/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/customexceptions/DocumentNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/customexceptions/DocumentNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/customexceptions/InvalidRequestDataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/customexceptions/InvalidRequestDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/customexceptions/UnauthorizedAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/customexceptions/UnauthorizedAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/customexceptions/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/customexceptions/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/entity/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/MultiAccessRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/MultiAccessRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/ResponseUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/ResponseUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/SingleAccessRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/SingleAccessRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/UserDocumentAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/UserDocumentAdvanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/UserDocumentBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/UserDocumentBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/model/UserDocumentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/model/UserDocumentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/repository/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/repository/DocumentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/service/DocumentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/java/com/project/ds/service/DocumentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/java/com/project/filehandler/service/DocumentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-service/src/test/java/com/project/filehandler/FilehandlerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-service/src/test/java/com/project/ds/FilehandlerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Del.java" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Del.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Ins.java" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Ins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/model/Instruction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/service/InstructionPublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/service/InstructionPublisherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/service/InstructionPublisherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/instruction-publisher/src/main/java/com/project/instruction/publisher/service/InstructionPublisherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/entity/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/entity/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/users-service/src/main/java/com/project/us/service/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2L2gL1EBzncNVpsRlWj3Q7TY4bq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/user-home/Desktop/webdev/Java_prog/workspace/springboot/collaborative-editor"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63a4d773-8ab6-4547-9c55-14931008e11c" name="Changes" comment="" />
+      <created>1675074533067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675074533067</updated>
+    </task>
+    <servers />
+  </component>
+</project>

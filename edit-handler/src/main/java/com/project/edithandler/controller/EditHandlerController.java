@@ -32,7 +32,7 @@ public class EditHandlerController {
 	@RabbitListener(queues = MQConfig.QUEUE)
 	public void listener(Document doc) {
 		System.out.println(doc);
-		// write-through & write-back combined
+		// TODO::write-through & write-back combined
 		if (tds.containsDocumentById(doc.getDid())) {
 			try {
 				TextDocument textDoc = tds.updateDocument(doc);

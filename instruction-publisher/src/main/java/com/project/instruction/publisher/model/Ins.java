@@ -1,12 +1,16 @@
 package com.project.instruction.publisher.model;
 
-public class Ins extends Instruction {
+public final class Ins extends Instruction {
 
 	private char[] c;
 
 	public Ins(String d, int p, char[] c) {
-		super(d, p);
+		super(d, p, false);
 		this.c = c;
+	}
+
+	public Ins(String did, int p, byte[] data) {
+		this(did, p, new String(data).toCharArray());
 	}
 
 	public char[] getC() {

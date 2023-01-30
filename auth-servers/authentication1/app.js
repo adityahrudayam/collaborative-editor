@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const eurekaHelper = require('./eureka-helper.js');
-
 eurekaHelper.registerWithEureka('auth-server1', 7001);
 
 const sequelize = require('./util/database');
@@ -9,7 +8,7 @@ const authRoutes = require('./routes/auth');
 
 const app = express();
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.use((req, res, next) => { //CORS Headers!
     res.setHeader('Allow-Control-Allow-Origin', '*');
